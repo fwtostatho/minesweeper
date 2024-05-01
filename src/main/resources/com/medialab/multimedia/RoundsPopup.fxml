@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="fx:id=&quot;textArea&quot;" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.medialab.multimedia.MainController">
+   <children>
+      <Label fx:id="roundLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="-1.0" layoutY="65.0" prefHeight="182.0" prefWidth="603.0" text="Label">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="137.0" layoutY="33.0" text="The last 5 rounds from most to least recent:">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
